@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026C5055646B1E3BDF6F278790D267E9 /* Pods-KeyChainPracticeEx-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A93D6F856B8CB659DD5C4E80A8F73A92 /* Pods-KeyChainPracticeEx-dummy.m */; };
+		131EE84DD08CC97D265F7EF31166A55B /* Pods-KeyChainPracticeExTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CF7FACAF3F8826406819D35BA9EEE91 /* Pods-KeyChainPracticeExTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C64C8B75B7527C2B53ECA150EF4DD48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2C9022F02292EA5FB21AB5FFC27D05F8 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EDC7F5AB062228320A8F30E874DBF5 /* Keychain.swift */; };
+		53553B129E00053BDEEEA6FDEC987F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		56574BD420D69C91A58E42C9B99383C2 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC038D165727D2F754FAFA87C1189D5 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-dummy.m */; };
+		6EE0992F3DF713DAA30C5E631EC87DDB /* Pods-KeyChainPracticeEx-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E89BF051DF45110BC3387B80C13C08F7 /* Pods-KeyChainPracticeEx-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8639F959351C3150179FD4E4C3047BA9 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0583F2F3A2B45D874D7BB846606F53E5 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE13D3FA75FDFB448DD60361E8EDD711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B05FC4B81EF9713E944A451D41789822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BF90BFF34BBAD8B2C7A6CE9641145561 /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D900EDF1BFD0200B583DFD18B7DAEDF2 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E62977555CCE62A86C3E2EA11F3463C9 /* Pods-KeyChainPracticeExTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4438763084C3B34DEAB89B74C7D6A113 /* Pods-KeyChainPracticeExTests-dummy.m */; };
+		EEA3892D8746DA47A2889A0717514533 /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CC24E5342FC3BA54FD6B10029448E4 /* KeychainAccess-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3363CA49CB53548B426865DE09590C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4FD56C6A2B3A8DF7D048338F26202B;
+			remoteInfo = "Pods-KeyChainPracticeEx";
+		};
+		56A824EF26734555F018F3CCA33D42AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
+		};
+		9EA4CDE1725751245D9664C3EF7EB526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A75E104FDEF6AA10F821C24442895C /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests"; path = Pods_KeyChainPracticeEx_KeyChainPracticeExUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0583F2F3A2B45D874D7BB846606F53E5 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-umbrella.h"; sourceTree = "<group>"; };
+		07F22B642C1DE88C3E3D773384F9B01A /* Pods-KeyChainPracticeEx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyChainPracticeEx.release.xcconfig"; sourceTree = "<group>"; };
+		0D003F9022CA5129313E3FC4E7D2EC23 /* Pods-KeyChainPracticeExTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyChainPracticeExTests-Info.plist"; sourceTree = "<group>"; };
+		10188AAF5D844B466FE334C62B13264F /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		102764E75956A8848BC9691383C3E031 /* KeychainAccess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.debug.xcconfig; sourceTree = "<group>"; };
+		16EADFBDA1AE0E35176EB7B2C9A770FC /* Pods-KeyChainPracticeEx-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyChainPracticeEx-frameworks.sh"; sourceTree = "<group>"; };
+		17C98A74C261CCDE7A29AE7604DB9A34 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		241D78B31A172C75E52D0898852DF5FB /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
+		2B602F3E444CD1684435C625A334CDAC /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CF7FACAF3F8826406819D35BA9EEE91 /* Pods-KeyChainPracticeExTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyChainPracticeExTests-umbrella.h"; sourceTree = "<group>"; };
+		32D62F55898B63723906AD79980109D8 /* Pods-KeyChainPracticeExTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyChainPracticeExTests.release.xcconfig"; sourceTree = "<group>"; };
+		345D71021D1269979AAE7F155EE361FF /* Pods-KeyChainPracticeEx.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyChainPracticeEx.modulemap"; sourceTree = "<group>"; };
+		3779108D565DFFB195ED9CE018AC4D6B /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.modulemap"; sourceTree = "<group>"; };
+		4438763084C3B34DEAB89B74C7D6A113 /* Pods-KeyChainPracticeExTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyChainPracticeExTests-dummy.m"; sourceTree = "<group>"; };
+		551EC3D608F6A58969CA3E0AB4ED60F0 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-Info.plist"; sourceTree = "<group>"; };
+		59F9B85F9FD4F26BFAC7EEC9954361D5 /* Pods-KeyChainPracticeExTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KeyChainPracticeExTests"; path = Pods_KeyChainPracticeExTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F254B27EA1EAC870127B58E6115CCC1 /* KeychainAccess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainAccess-Info.plist"; sourceTree = "<group>"; };
+		6BCB669C027613848164D27706D233CD /* Pods-KeyChainPracticeEx-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyChainPracticeEx-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8FAAE7C236F21BA55B15DA2332C82641 /* Pods-KeyChainPracticeEx */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KeyChainPracticeEx"; path = Pods_KeyChainPracticeEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B2A4EC598066A37B44A4CF5C843C70 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9316252D0ED88C14AEA3D08EF957E82B /* Pods-KeyChainPracticeExTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyChainPracticeExTests.debug.xcconfig"; sourceTree = "<group>"; };
+		967EBF251A9805A02EB694AB37E4AC0D /* Pods-KeyChainPracticeExTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyChainPracticeExTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1AFE72AECFFA10F265D22055A2F35B7 /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
+		A93D6F856B8CB659DD5C4E80A8F73A92 /* Pods-KeyChainPracticeEx-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyChainPracticeEx-dummy.m"; sourceTree = "<group>"; };
+		ACC038D165727D2F754FAFA87C1189D5 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-dummy.m"; sourceTree = "<group>"; };
+		B3EDC7F5AB062228320A8F30E874DBF5 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
+		BDB48E6393F0EB7236EA70A4A60399F6 /* Pods-KeyChainPracticeExTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyChainPracticeExTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C224B6CDB93AB719C59F98E28F9901D8 /* Pods-KeyChainPracticeEx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KeyChainPracticeEx.debug.xcconfig"; sourceTree = "<group>"; };
+		C8CC24E5342FC3BA54FD6B10029448E4 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
+		CD412C6E579A127E79AB91966C4560FC /* KeychainAccess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.release.xcconfig; sourceTree = "<group>"; };
+		CF5E35F170B71E323DF65AEC1EEA9C6B /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D1FAD61838C7FD61F647D2516D945611 /* Pods-KeyChainPracticeExTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KeyChainPracticeExTests.modulemap"; sourceTree = "<group>"; };
+		D900EDF1BFD0200B583DFD18B7DAEDF2 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		E0207301BD94AEB5D58B577CBD8665F3 /* Pods-KeyChainPracticeEx-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KeyChainPracticeEx-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1EC04F2B9C633E172261F9670E7FAF9 /* Pods-KeyChainPracticeEx-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KeyChainPracticeEx-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E89BF051DF45110BC3387B80C13C08F7 /* Pods-KeyChainPracticeEx-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KeyChainPracticeEx-umbrella.h"; sourceTree = "<group>"; };
+		E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A1C38C928BD5AF42B10776E314017D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05FC4B81EF9713E944A451D41789822 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A2EC0AB6F1423BBB0D97DFA9CC1E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE13D3FA75FDFB448DD60361E8EDD711 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FCFEB2E9110DE9F04D4702238331D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64C8B75B7527C2B53ECA150EF4DD48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A9DE1E0FADDD4D5B23522524765CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53553B129E00053BDEEEA6FDEC987F75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		149C614238EBF97CA5182AA31DB51304 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3779108D565DFFB195ED9CE018AC4D6B /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.modulemap */,
+				2B602F3E444CD1684435C625A334CDAC /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-acknowledgements.markdown */,
+				17C98A74C261CCDE7A29AE7604DB9A34 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-acknowledgements.plist */,
+				ACC038D165727D2F754FAFA87C1189D5 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-dummy.m */,
+				CF5E35F170B71E323DF65AEC1EEA9C6B /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-frameworks.sh */,
+				551EC3D608F6A58969CA3E0AB4ED60F0 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-Info.plist */,
+				0583F2F3A2B45D874D7BB846606F53E5 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-umbrella.h */,
+				10188AAF5D844B466FE334C62B13264F /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.debug.xcconfig */,
+				91B2A4EC598066A37B44A4CF5C843C70 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.release.xcconfig */,
+			);
+			name = "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests";
+			path = "Target Support Files/Pods-KeyChainPracticeEx-KeyChainPracticeExUITests";
+			sourceTree = "<group>";
+		};
+		1822CF174BA8C3BC1C6A1BCD70C74D9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				919386A9ADBF76F63E3A3BBA7B97D2E4 /* KeychainAccess */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1DAB99EDBFB57174C21164280FA0E803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess */,
+				8FAAE7C236F21BA55B15DA2332C82641 /* Pods-KeyChainPracticeEx */,
+				04A75E104FDEF6AA10F821C24442895C /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests */,
+				59F9B85F9FD4F26BFAC7EEC9954361D5 /* Pods-KeyChainPracticeExTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E09543A3ED3C8792A5CFD6D59CDC23F /* Pods-KeyChainPracticeExTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1FAD61838C7FD61F647D2516D945611 /* Pods-KeyChainPracticeExTests.modulemap */,
+				967EBF251A9805A02EB694AB37E4AC0D /* Pods-KeyChainPracticeExTests-acknowledgements.markdown */,
+				BDB48E6393F0EB7236EA70A4A60399F6 /* Pods-KeyChainPracticeExTests-acknowledgements.plist */,
+				4438763084C3B34DEAB89B74C7D6A113 /* Pods-KeyChainPracticeExTests-dummy.m */,
+				0D003F9022CA5129313E3FC4E7D2EC23 /* Pods-KeyChainPracticeExTests-Info.plist */,
+				2CF7FACAF3F8826406819D35BA9EEE91 /* Pods-KeyChainPracticeExTests-umbrella.h */,
+				9316252D0ED88C14AEA3D08EF957E82B /* Pods-KeyChainPracticeExTests.debug.xcconfig */,
+				32D62F55898B63723906AD79980109D8 /* Pods-KeyChainPracticeExTests.release.xcconfig */,
+			);
+			name = "Pods-KeyChainPracticeExTests";
+			path = "Target Support Files/Pods-KeyChainPracticeExTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7139A0FCEFAB916F2769918041C0A2D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1AFE72AECFFA10F265D22055A2F35B7 /* KeychainAccess.modulemap */,
+				C8CC24E5342FC3BA54FD6B10029448E4 /* KeychainAccess-dummy.m */,
+				5F254B27EA1EAC870127B58E6115CCC1 /* KeychainAccess-Info.plist */,
+				241D78B31A172C75E52D0898852DF5FB /* KeychainAccess-prefix.pch */,
+				D900EDF1BFD0200B583DFD18B7DAEDF2 /* KeychainAccess-umbrella.h */,
+				102764E75956A8848BC9691383C3E031 /* KeychainAccess.debug.xcconfig */,
+				CD412C6E579A127E79AB91966C4560FC /* KeychainAccess.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainAccess";
+			sourceTree = "<group>";
+		};
+		753FF23E401899B9D4B5F2F553CC4678 /* Pods-KeyChainPracticeEx */ = {
+			isa = PBXGroup;
+			children = (
+				345D71021D1269979AAE7F155EE361FF /* Pods-KeyChainPracticeEx.modulemap */,
+				E1EC04F2B9C633E172261F9670E7FAF9 /* Pods-KeyChainPracticeEx-acknowledgements.markdown */,
+				E0207301BD94AEB5D58B577CBD8665F3 /* Pods-KeyChainPracticeEx-acknowledgements.plist */,
+				A93D6F856B8CB659DD5C4E80A8F73A92 /* Pods-KeyChainPracticeEx-dummy.m */,
+				16EADFBDA1AE0E35176EB7B2C9A770FC /* Pods-KeyChainPracticeEx-frameworks.sh */,
+				6BCB669C027613848164D27706D233CD /* Pods-KeyChainPracticeEx-Info.plist */,
+				E89BF051DF45110BC3387B80C13C08F7 /* Pods-KeyChainPracticeEx-umbrella.h */,
+				C224B6CDB93AB719C59F98E28F9901D8 /* Pods-KeyChainPracticeEx.debug.xcconfig */,
+				07F22B642C1DE88C3E3D773384F9B01A /* Pods-KeyChainPracticeEx.release.xcconfig */,
+			);
+			name = "Pods-KeyChainPracticeEx";
+			path = "Target Support Files/Pods-KeyChainPracticeEx";
+			sourceTree = "<group>";
+		};
+		919386A9ADBF76F63E3A3BBA7B97D2E4 /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				B3EDC7F5AB062228320A8F30E874DBF5 /* Keychain.swift */,
+				7139A0FCEFAB916F2769918041C0A2D4 /* Support Files */,
+			);
+			name = KeychainAccess;
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1822CF174BA8C3BC1C6A1BCD70C74D9E /* Pods */,
+				1DAB99EDBFB57174C21164280FA0E803 /* Products */,
+				DC031F98840B998C329697E842FBA840 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC031F98840B998C329697E842FBA840 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				753FF23E401899B9D4B5F2F553CC4678 /* Pods-KeyChainPracticeEx */,
+				149C614238EBF97CA5182AA31DB51304 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests */,
+				2E09543A3ED3C8792A5CFD6D59CDC23F /* Pods-KeyChainPracticeExTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A7B8CACA619D6521B992F2DD7DE26ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8639F959351C3150179FD4E4C3047BA9 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6970FDD884F38D650F3E012C97C8A861 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131EE84DD08CC97D265F7EF31166A55B /* Pods-KeyChainPracticeExTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6802A8A054F635E500356EA9B1DBBB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE0992F3DF713DAA30C5E631EC87DDB /* Pods-KeyChainPracticeEx-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF75125526618A4F89C7DE0AA396B82A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF90BFF34BBAD8B2C7A6CE9641145561 /* KeychainAccess-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08E0386EF2C5447AE10EEB605D27A853 /* Pods-KeyChainPracticeExTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4A772689718DC69834E95F1ABE4491 /* Build configuration list for PBXNativeTarget "Pods-KeyChainPracticeExTests" */;
+			buildPhases = (
+				6970FDD884F38D650F3E012C97C8A861 /* Headers */,
+				2A126BDA8C0921E0D2BA32718BE73BCA /* Sources */,
+				C7A9DE1E0FADDD4D5B23522524765CE7 /* Frameworks */,
+				16A828B46618678EB95672E98797A5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E97CF0D9120AEE0AD284D29F2A04E7F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyChainPracticeExTests";
+			productName = Pods_KeyChainPracticeExTests;
+			productReference = 59F9B85F9FD4F26BFAC7EEC9954361D5 /* Pods-KeyChainPracticeExTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		615C831BCE925ED486B225B87E44926D /* KeychainAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8186AABF55F555DDAD74F17BA7EC1698 /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
+			buildPhases = (
+				BF75125526618A4F89C7DE0AA396B82A /* Headers */,
+				3CA247B210AE409280F27D97CC981D9D /* Sources */,
+				61A2EC0AB6F1423BBB0D97DFA9CC1E1B /* Frameworks */,
+				57833CBC64D40DF1355638A2FC2ACC60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainAccess;
+			productName = KeychainAccess;
+			productReference = E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E6E5786385DC485F6BB2F0195B6C3AC /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5591A2CB08A36B109B2AC90F55D56D4 /* Build configuration list for PBXNativeTarget "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests" */;
+			buildPhases = (
+				3A7B8CACA619D6521B992F2DD7DE26ED /* Headers */,
+				F016B48CD4F302C7A9BA0A4656C8FC5C /* Sources */,
+				77FCFEB2E9110DE9F04D4702238331D0 /* Frameworks */,
+				1EBFFFB653195C8A08DF36E1F1CCC354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FF063802CC5330197B31A533640549A /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests";
+			productName = Pods_KeyChainPracticeEx_KeyChainPracticeExUITests;
+			productReference = 04A75E104FDEF6AA10F821C24442895C /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD4FD56C6A2B3A8DF7D048338F26202B /* Pods-KeyChainPracticeEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A041A6FD2E4C2ADF93647BF8B86A12 /* Build configuration list for PBXNativeTarget "Pods-KeyChainPracticeEx" */;
+			buildPhases = (
+				A6802A8A054F635E500356EA9B1DBBB8 /* Headers */,
+				110EAAF5E054D793EE693191937C08DB /* Sources */,
+				0A1C38C928BD5AF42B10776E314017D5 /* Frameworks */,
+				15727654383A68675BE6A0198E1A9267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00621D07D67743E4537C32DF039A324F /* PBXTargetDependency */,
+			);
+			name = "Pods-KeyChainPracticeEx";
+			productName = Pods_KeyChainPracticeEx;
+			productReference = 8FAAE7C236F21BA55B15DA2332C82641 /* Pods-KeyChainPracticeEx */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1DAB99EDBFB57174C21164280FA0E803 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				615C831BCE925ED486B225B87E44926D /* KeychainAccess */,
+				DD4FD56C6A2B3A8DF7D048338F26202B /* Pods-KeyChainPracticeEx */,
+				9E6E5786385DC485F6BB2F0195B6C3AC /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests */,
+				08E0386EF2C5447AE10EEB605D27A853 /* Pods-KeyChainPracticeExTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15727654383A68675BE6A0198E1A9267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A828B46618678EB95672E98797A5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFFFB653195C8A08DF36E1F1CCC354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57833CBC64D40DF1355638A2FC2ACC60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110EAAF5E054D793EE693191937C08DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026C5055646B1E3BDF6F278790D267E9 /* Pods-KeyChainPracticeEx-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A126BDA8C0921E0D2BA32718BE73BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62977555CCE62A86C3E2EA11F3463C9 /* Pods-KeyChainPracticeExTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA247B210AE409280F27D97CC981D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9022F02292EA5FB21AB5FFC27D05F8 /* Keychain.swift in Sources */,
+				EEA3892D8746DA47A2889A0717514533 /* KeychainAccess-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F016B48CD4F302C7A9BA0A4656C8FC5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56574BD420D69C91A58E42C9B99383C2 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00621D07D67743E4537C32DF039A324F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
+			targetProxy = 9EA4CDE1725751245D9664C3EF7EB526 /* PBXContainerItemProxy */;
+		};
+		6FF063802CC5330197B31A533640549A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
+			targetProxy = 56A824EF26734555F018F3CCA33D42AE /* PBXContainerItemProxy */;
+		};
+		E97CF0D9120AEE0AD284D29F2A04E7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KeyChainPracticeEx";
+			target = DD4FD56C6A2B3A8DF7D048338F26202B /* Pods-KeyChainPracticeEx */;
+			targetProxy = 3363CA49CB53548B426865DE09590C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B0425AC794F7F2D9B103BDF08D1C15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD412C6E579A127E79AB91966C4560FC /* KeychainAccess.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0FEE2CB5141559D1C945C9B5C322EDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9316252D0ED88C14AEA3D08EF957E82B /* Pods-KeyChainPracticeExTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyChainPracticeExTests/Pods-KeyChainPracticeExTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyChainPracticeExTests/Pods-KeyChainPracticeExTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EA4F0707F5DE104683D87AA0D417138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10188AAF5D844B466FE334C62B13264F /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyChainPracticeEx-KeyChainPracticeExUITests/Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyChainPracticeEx-KeyChainPracticeExUITests/Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		636CBAAC45BB79D02FA9F264D9B56179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C224B6CDB93AB719C59F98E28F9901D8 /* Pods-KeyChainPracticeEx.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyChainPracticeEx/Pods-KeyChainPracticeEx-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyChainPracticeEx/Pods-KeyChainPracticeEx.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8E39B57F09E269952EB752B872860D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102764E75956A8848BC9691383C3E031 /* KeychainAccess.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97CCD19ADE37122F9A366DBF4B3A7AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B2A4EC598066A37B44A4CF5C843C70 /* Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyChainPracticeEx-KeyChainPracticeExUITests/Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyChainPracticeEx-KeyChainPracticeExUITests/Pods-KeyChainPracticeEx-KeyChainPracticeExUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB175F7F0666A5B9D192A013E07EFC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D62F55898B63723906AD79980109D8 /* Pods-KeyChainPracticeExTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyChainPracticeExTests/Pods-KeyChainPracticeExTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyChainPracticeExTests/Pods-KeyChainPracticeExTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBAFC5B761346D4CB06F35C575C95B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F22B642C1DE88C3E3D773384F9B01A /* Pods-KeyChainPracticeEx.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KeyChainPracticeEx/Pods-KeyChainPracticeEx-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KeyChainPracticeEx/Pods-KeyChainPracticeEx.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02A041A6FD2E4C2ADF93647BF8B86A12 /* Build configuration list for PBXNativeTarget "Pods-KeyChainPracticeEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636CBAAC45BB79D02FA9F264D9B56179 /* Debug */,
+				EBAFC5B761346D4CB06F35C575C95B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4A772689718DC69834E95F1ABE4491 /* Build configuration list for PBXNativeTarget "Pods-KeyChainPracticeExTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEE2CB5141559D1C945C9B5C322EDC2 /* Debug */,
+				CB175F7F0666A5B9D192A013E07EFC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8186AABF55F555DDAD74F17BA7EC1698 /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E39B57F09E269952EB752B872860D2C /* Debug */,
+				0B0425AC794F7F2D9B103BDF08D1C15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5591A2CB08A36B109B2AC90F55D56D4 /* Build configuration list for PBXNativeTarget "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA4F0707F5DE104683D87AA0D417138 /* Debug */,
+				97CCD19ADE37122F9A366DBF4B3A7AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

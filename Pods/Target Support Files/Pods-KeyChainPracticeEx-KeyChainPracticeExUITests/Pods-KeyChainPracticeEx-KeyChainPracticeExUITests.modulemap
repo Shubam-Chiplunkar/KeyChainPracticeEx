@@ -1,0 +1,6 @@
+framework module Pods_KeyChainPracticeEx_KeyChainPracticeExUITests {
+  umbrella header "Pods-KeyChainPracticeEx-KeyChainPracticeExUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
